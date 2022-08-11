@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f329d59131217443a3ef121b272ee50, type: 3}
+  m_Name: New Game
+  m_EditorClassIdentifier: 
+  ball: {fileID: 3523994060424497782, guid: d320254745d6d6c4aa2748199ccec1a3, type: 3}
+  player: {fileID: 6176034921480235237, guid: b4737f0362880e940a395d8209add6f4, type: 3}
+  destroyable: {fileID: 1632812137302623264, guid: 15c3491324b9d1a448091dad49c25ba9, type: 3}
+  vfx: {fileID: 4848994519848265659, guid: 0f78f95dccd2f0e4083706c38c59fa60, type: 3}
+  _winUi: {fileID: 0}
+  _loseUi: {fileID: 0}
+  _playSceneName: SampleScene
+  _ballScale: 0.34
+  _destroyableLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  _vertical:
+    serializedVersion: 2
+    m_Bits: 1024
+  _horizontal:
+    serializedVersion: 2
+    m_Bits: 512
+  _logging: 0
+  playerSpeedScale: 7
+  ballSpeedScale: 4.5
+  maxXPos: 7.74
+  minXPos: -7.74
+  _destroyablePositions:
+  - {x: -1.72, y: 3.77, z: 0}
+  - {x: 0.13, y: 3.76, z: 0}
+  - {x: 1.98, y: 3.76, z: 0}
+  - {x: -1.72, y: 1.15, z: 0}
+  - {x: 0.13, y: 2.37, z: 0}
+  - {x: 1.38, y: 3.25, z: 0}
+  - {x: -3.55, y: 1.15, z: 0}
+  - {x: -7.39, y: 1.54, z: 0}
+  - {x: 4.21, y: 2.25, z: 0}
+  - {x: 5.98, y: 2.78, z: 0}
+  - {x: 6.9, y: 3.82, z: 0}
+  - {x: 4.14, y: 3.18, z: 0}
+  - {x: -2.46, y: 3.18, z: 0}
+  - {x: -4.35, y: 3.18, z: 0}
+  - {x: -6.16, y: 2.81, z: 0}
+  - {x: -5.08, y: 2.18, z: 0}
+  - {x: -3.12, y: 1.71, z: 0}
+  - {x: 2.14, y: 1.71, z: 0}
+  - {x: 4.52, y: 1.71, z: 0}
+  - {x: 6.56, y: 1.18, z: 0}
+  _lifesGameObjects:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  gameEnded: 0
+  lifes: 3
